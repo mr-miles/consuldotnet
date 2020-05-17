@@ -7,6 +7,8 @@ using System.Threading.Tasks;
 using Consul;
 using Newtonsoft.Json;
 
+namespace Consul
+{
 
     public interface ITxnEndpoint
     {
@@ -324,3 +326,4 @@ using Newtonsoft.Json;
             return objectType == typeof(CheckTxnVerb);
         }
     }
+}
